@@ -9,16 +9,17 @@ body {
 .navbar {
   background-color: black;
   font-size: 0.9rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   font-weight: bold;
 }
 
 .navbar-brand>img {
   height: 1.8rem;
+  padding-left: 20px;
 }
 
 .navbar-nav li {
-  padding-right: 0.6rem;
+  padding: 0.6rem;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -27,12 +28,12 @@ body {
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: limegreen;
+  color: red;
 }
 
 /* Landing */
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/main-pic.jpg);
   background-size: contain;
 }
 
@@ -78,7 +79,7 @@ body {
 
 /* Clients */
 .client {
-  border-radius: 50%;
+  border-radius: 10%;
   width: 90%;
   min-width: 15vw;
 }
@@ -94,7 +95,7 @@ footer, footer a {
 }
 
 footer a:hover, footer p, footer h3 {
-  color: black
+  color: red;
 }
 
 footer img {
