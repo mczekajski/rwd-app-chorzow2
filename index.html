@@ -44,6 +44,9 @@
               <a href="#resources" class="nav-link">ZASOBY</a>
             </li>
             <li class="nav-item">
+              <a href="#form_reg" class="nav-link">REJESTRACJA</a>
+            </li>
+            <li class="nav-item">
               <a href="#clients" class="nav-link">KLIENCI</a>
             </li>
             <li class="nav-item">
@@ -142,6 +145,81 @@
     </div>
     <!-- End resources section -->
 
+    <!-- Start rgister section -->
+    <div id="form_reg" class="form_register">
+      <div class="jumbotron">
+        <h2 class="form_head">Formularz rejestracji do szczepienia przeciw COVID-19</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Imię</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Imię">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputSurname">Nazwisko</label>
+              <input type="text" class="form-control" id="inputSurname" placeholder="Nazwisko">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputPESEL">Numer PESEL</label>
+              <input type="number" class="form-control" id="inputPESEL" placeholder="PESEL">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Adres</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Adres">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-lg-6">
+              <label for="inputCity">Miasto</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Miasto">
+            </div>
+            <div class="form-group col-lg-4">
+              <label for="inputState">Województwo</label>
+              <select id="inputState" class="form-control">
+                <option disabled selected>Wybierz...</option>
+                <option>dolnośląskie</option>
+                <option>kujawsko-pomorskie</option>
+                <option>lubelskie</option>
+                <option>lubuskie</option>
+                <option>łódzkie</option>
+                <option>małopolskie</option>
+                <option>mazowieckie</option>
+                <option>opolskie</option>
+                <option>podkarpackie</option>
+                <option>podlaskie</option>
+                <option>pomorskie</option>
+                <option>śląskie</option>
+                <option>świętokrzyskie</option>
+                <option>warmińsko-mazurskie</option>
+                <option>wielkopolskie</option>
+                <option>zachodniopomorskie</option>
+              </select>
+            </div>
+            <div class="form-group col-lg-2">
+              <label for="inputZip">Kod pocztowy</label>
+              <input type="text" class="form-control" id="inputZip" placeholder="00-000">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Wyrażam zgodę na przetwarzanie moich danych osobowych w celu zgłoszenia zainteresowania szczepieniem przeciw COVID-19
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-secondary">Zarejestruj</button>
+        </form>
+      </div>
+    </div>
+    <!-- End register section -->
+    
     <!-- Start clients section -->
     <div id="clients">
       <div class="jumbotron">

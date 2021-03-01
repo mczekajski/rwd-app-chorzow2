@@ -106,12 +106,28 @@ footer img {
   margin: 1rem 0;
 }
 
+/*register form*/
+.form_register{
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.form_head{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 /* @media queries own rules */
 @media all and (max-width: 767px) {
   .client {
     width: 50%;
     max-width: 40vw;
   }
+
+.form_register{
+  max-width: 90%;
+  margin: 0 auto;
+}
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
