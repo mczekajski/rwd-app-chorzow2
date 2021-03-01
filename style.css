@@ -2,18 +2,18 @@
 
 body {
   overflow-x: hidden;
-  background-color: rgb(233, 236, 239);
+  background-color: #f1faee;
 }
 
 /* Navigation */
 .navbar {
-  background-color: black;
+  background-color: #1d3557;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
 }
 
-.navbar-brand>img {
+.navbar-brand > img {
   height: 1.8rem;
 }
 
@@ -27,12 +27,12 @@ body {
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: limegreen;
+  color: #e63946;
 }
 
 /* Landing */
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url("https://images.pexels.com/photos/5922099/pexels-photo-5922099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: contain;
 }
 
@@ -55,14 +55,14 @@ body {
   text-transform: uppercase;
   z-index: 1;
 }
-
 /* Course */
 #course {
-  background-color: lightgrey;
+  background-color: #f1faee;
 }
 
 /* Features */
 .jumbotron {
+  background-color: #f1faee;
   color: black;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -83,23 +83,38 @@ body {
   min-width: 15vw;
 }
 
-.blockquote, .jumbo-line {
+.blockquote,
+.jumbo-line {
   width: 70%;
   margin: 0 auto;
 }
 
 /* Contact */
-footer, footer a {
-  color: white;
+footer,
+footer a {
+  color: black;
 }
 
-footer a:hover, footer p, footer h3 {
-  color: black
+footer a:hover,
+footer p,
+footer h3 {
+  color: #e63946;
 }
 
 footer img {
   height: 3rem;
   margin: 1rem 0;
+}
+
+/*register form*/
+.form_register{
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.form_head{
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 /* @media queries own rules */
@@ -108,6 +123,11 @@ footer img {
     width: 50%;
     max-width: 40vw;
   }
+
+.form_register{
+  max-width: 90%;
+  margin: 0 auto;
+}
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
