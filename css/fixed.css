@@ -71,3 +71,11 @@ margin-right: 0px!important;
           transform: translateZ(0);
   will-change: transform;
 }
+
+/* COVID-INFO */
+.covid-info {
+  margin-bottom: 20px;
+  padding: 20px;
+  color: red;
+  background-color: #eee;
+}
