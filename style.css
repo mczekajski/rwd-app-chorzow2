@@ -6,6 +6,7 @@ body {
 }
 
 /* Navigation */
+
 .navbar {
   background-color: #1d3557;
   font-size: 0.9rem;
@@ -13,7 +14,7 @@ body {
   font-weight: bold;
 }
 
-.navbar-brand > img {
+.navbar-brand>img {
   height: 1.8rem;
   padding-left: 20px;
 }
@@ -32,6 +33,7 @@ body {
 }
 
 /* Landing */
+
 .home-inner {
   background-image: url(img/main-pic.jpg);
   background-size: contain;
@@ -56,12 +58,15 @@ body {
   text-transform: uppercase;
   z-index: 1;
 }
+
 /* Course */
+
 #course {
   background-color: #f1faee;
 }
 
 /* Features */
+
 .jumbotron {
   background-color: #f1faee;
   color: black;
@@ -79,21 +84,21 @@ body {
 }
 
 /* Clients */
+
 .client {
   border-radius: 10%;
   width: 90%;
   min-width: 15vw;
 }
 
-.blockquote,
-.jumbo-line {
+.blockquote, .jumbo-line {
   width: 70%;
   margin: 0 auto;
 }
 
 /* Contact */
-footer,
-footer a {
+
+footer, footer a {
   color: black;
 }
 
@@ -107,17 +112,19 @@ footer img {
 }
 
 /*register form*/
-.form_register{
+
+.form_register {
   max-width: 70%;
   margin: 0 auto;
 }
 
-.form_head{
+.form_head {
   text-align: center;
   padding-bottom: 20px;
 }
 
 /* COVID-INFO */
+
 .covid-info {
   margin-bottom: 20px;
   padding: 20px;
@@ -126,16 +133,16 @@ footer img {
 }
 
 /* @media queries own rules */
+
 @media all and (max-width: 767px) {
   .client {
     width: 50%;
     max-width: 40vw;
   }
-
-.form_register{
-  max-width: 90%;
-  margin: 0 auto;
-}
+  .form_register {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
