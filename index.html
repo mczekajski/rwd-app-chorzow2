@@ -12,7 +12,6 @@
 
 <body>
   <!-- sections: STRONA DOMOWA(v); KURS; MOZLIWOSCI; ZASOBY; KLIENCI; KONTAKT -->
-
   <!--- Start HOME Section -->
   <div id="home">
     <!-- Navigation -->
@@ -64,131 +63,202 @@
   </div>
   <!--- End HOME Section -->
 
-  <!-- Start course section -->
-  <div id="course">
-    <div class="text-center col-12">
-      <p>Przeczytaj o COVID-19</p>
-      <a class="btn btn-outline-secondary btn-lg" href="https://pl.wikipedia.org/wiki/COVID-19" target="_blank">Otwórz
-        Wikipedia.pl</a>
+    <!-- COVID-INFO -->
+    <div class="covid-info">
+      <p>
+        <strong>COVID-19</strong> to przyjęty skrót choroby, którą wywołuje
+        koronawirus SARS-CoV-2. SARS w tym wypadku to skrót od Severe Acute
+        Respiratory Syndrome, czyli ciężki ostry zespół oddechowy, ponieważ w ten
+        sposób choroba się objawia. COVID-19 wywołuje jeden z koronawirusów, podobny
+        w wielu aspektach do choroby SARS, która wystąpiła w Azji na przełomie 2002
+        i 2003 roku. Szacuje się jednak, że w przypadku koronawirusa zaraźliwość
+        jest większa. Okres wylęgania koronawirusa wynosi od 1 do 14 dni, średnio
+        trwa to jednak około 5 dni.
+      </p>
     </div>
-  </div>
-  <!-- End course section -->
 
-  <!-- Start features section -->
-  <div id="features">
-    <div class="jumbotron text-center">
-      <h2>Poznaj zagrożenia</h2>
-      <ul class="features-list">
-        <li>Choroby płuc</li>
-        <li>Nudności</li>
-        <li>Apatia</li>
-        <li>Bóle mięśni</li>
-      </ul>
-      <hr class="line" />
+    <!-- Start features section -->
+    <div id="features">
+      <div class="jumbotron text-center">
+        <h2>Objawy COVID:</h2>
+        <ul class="features-list">
+          <li>gorączka</li>
+          <li>suchy kaszel</li>
+          <li>zmęczenie</li>
+          <li>chęć studiowania</li>
+        </ul>
+        <hr class="line" />
+      </div>
+    </div>
+    <!-- End features section -->
+
+    <!-- Start resources section -->
+    <div id="resources">
+      <div class="jumbotron">
+        <div class="narrow">
+          <div class="heading col-12">
+            <h3 class="text-center">Pomoc:</h3>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <div class="resource">
+                <i class="fas fa-phone-volume fa-5x"></i>
+                <h3>Zadzwoń</h3>
+                <p>
+                  Szukasz informacji o szczepieniach przeciwko COVID‑19? Zadzwoń na bezpłatną, całodobową infolinię Narodowego Programu Szczepień pod numerem 989.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="resource">
+                <i class="fas fa-file-alt fa-5x"></i>
+                <h3>Zarejestruj się</h3>
+                <p>
+                  Zarejestruj się na szczepienie. Wypełnij formularz. Otrzymasz odpowiednie informacje.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="resource">
+                <i class="fas fa-allergies fa-5x"></i>
+                <h3>Zapobiegaj rozprzestrzenianiu COVID</h3>
+                <p>
+                  Chroń siebie i osoby w Twoim środowisku, poznając fakty i podejmując odpowiednie środki ostrożności. Postępuj zgodnie z zaleceniami lokalnej stacji sanitarno-epidemiologicznej.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="line" />
+      </div>
     </div>
   </div>
   <!-- End features section -->
 
-  <!-- Start resources section -->
-  <div id="resources">
-    <div class="jumbotron">
-      <div class="narrow">
-        <div class="heading col-12">
-          <h3 class="text-center">Poznaj szczepionki:</h3>
-        </div>
-
-        <div class="row text-center">
-          <div class="col-md-4">
-            <div class="resource">
-              <i class="fas fa-syringe fa-5x"></i>
-              <h3>Pfizer</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus at aliquid voluptatem similique expedita repellat.
-              </p>
+    <!-- Start rgister section -->
+    <div id="form_reg" class="form_register">
+      <div class="jumbotron">
+        <h2 class="form_head">Formularz rejestracji do szczepienia przeciw COVID-19</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Imię</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Imię">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputSurname">Nazwisko</label>
+              <input type="text" class="form-control" id="inputSurname" placeholder="Nazwisko">
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="resource">
-              <i class="fas fa-syringe fa-5x"></i>
-              <h3>Moderna</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus at aliquid voluptatem similique expedita repellat.
-              </p>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputPESEL">Numer PESEL</label>
+              <input type="number" class="form-control" id="inputPESEL" placeholder="PESEL">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="resource">
-              <i class="fas fa-syringe fa-5x"></i>
-              <h3>AstraZeneca</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus at aliquid voluptatem similique expedita repellat.
-              </p>
+          <div class="form-group">
+            <label for="inputAddress">Adres</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Adres">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-lg-6">
+              <label for="inputCity">Miasto</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Miasto">
+            </div>
+            <div class="form-group col-lg-4">
+              <label for="inputState">Województwo</label>
+              <select id="inputState" class="form-control">
+                <option disabled selected>Wybierz...</option>
+                <option>dolnośląskie</option>
+                <option>kujawsko-pomorskie</option>
+                <option>lubelskie</option>
+                <option>lubuskie</option>
+                <option>łódzkie</option>
+                <option>małopolskie</option>
+                <option>mazowieckie</option>
+                <option>opolskie</option>
+                <option>podkarpackie</option>
+                <option>podlaskie</option>
+                <option>pomorskie</option>
+                <option>śląskie</option>
+                <option>świętokrzyskie</option>
+                <option>warmińsko-mazurskie</option>
+                <option>wielkopolskie</option>
+                <option>zachodniopomorskie</option>
+              </select>
+            </div>
+            <div class="form-group col-lg-2">
+              <label for="inputZip">Kod pocztowy</label>
+              <input type="text" class="form-control" id="inputZip" placeholder="00-000">
             </div>
           </div>
-        </div>
-      </div>
-      <hr class="line" />
-    </div>
-  </div>
-  <!-- End resources section -->
-
-  <!-- Start clients section -->
-  <div id="clients">
-    <div class="jumbotron">
-      <div class="heading col-12">
-        <h3 class="text-center">Co mówią specjaliści:</h3>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Wyrażam zgodę na przetwarzanie moich danych osobowych w celu zgłoszenia zainteresowania szczepieniem przeciw COVID-19
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-secondary">Zarejestruj</button>
+        </form>
       </div>
     </div>
-
-    <div class="row text-center">
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="client" src="img/covid.jpg" />
+    <!-- End register section -->
+    
+        <!-- Start clients section -->
+        <div id="clients">
+          <div class="jumbotron">
+            <div class="heading col-12">
+              <h3 class="text-center">Co myślą wirusy:</h3>
+            </div>
           </div>
-          <div class="col-lg-8">
-            <blockquote class="blockquote text-center">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facilis animi ea totam quam, itaque, consequuntur laboriosam
-                laborum consectetur nam aliquid quisquam! Libero sint fugit
-                sapiente animi asperiores assumenda nulla rem!
-              </p>
-            </blockquote>
-            <hr class="jumbo-line" />
-            <footer class="blockquote-footer">
-              <cite>Dr hab. Halina Patała z Katowic</cite>
-            </footer>
+    
+          <div class="row text-center">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="client" src="img/client2.png" />
+                </div>
+                <div class="col-lg-8">
+                  <blockquote class="blockquote text-center">
+                    <p>
+                      Jak to jest być wirusem? A, wie pan, moim zdaniem to nie ma tak, że dobrze, albo że niedobrze. Gdybym miał powiedzieć, co cenię w życiu najbardziej, powiedziałbym, że ludzi. Ludzi, którzy podali mi pomocną dłoń, kiedy sobie nie radziłem, kiedy byłem sam, i co ciekawe, to właśnie przypadkowe spotkania wpływają na nasze życie.
+                    </p>
+                  </blockquote>
+                  <hr class="jumbo-line" />
+                  <footer class="blockquote-footer">
+                    <cite>Wirus z Wuhan</cite>
+                  </footer>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="client" src="img/client1.png" />
+                </div>
+                <div class="col-lg-8">
+                  <blockquote class="blockquote text-center">
+                    <p>
+                      Hoe is dit om 'n virus te wees? O, weet jy, volgens my is dit nie so goed of dat dit nie goed is nie. As ek sou sê wat ek die meeste waardeer in die lewe, sou ek sê mense. Mense wat my 'n helpende hand gegee het toe ek gesukkel het toe ek alleen was, en interessant genoeg is dit willekeurige ontmoetings wat ons lewens beïnvloed.!
+                    </p>
+                  </blockquote>
+                  <hr class="jumbo-line" />
+                  <footer class="blockquote-footer">
+                    <cite>Południowoafrykański szczep</cite>
+                  </footer>
+                </div>
+              </div>
+            </div>
           </div>
+          <hr class="line" />
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="client" src="img/covid1.jpg" />
-          </div>
-          <div class="col-lg-8">
-            <blockquote class="blockquote text-center">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facilis animi ea totam quam, itaque, consequuntur laboriosam
-                laborum consectetur nam aliquid quisquam! Libero sint fugit
-                sapiente animi asperiores assumenda nulla rem!
-              </p>
-            </blockquote>
-            <hr class="jumbo-line" />
-            <footer class="blockquote-footer">
-              <cite>Dr Jacek Zalewski z Gliwic</cite>
-            </footer>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr class="line" />
-  </div>
   <!-- End clients section -->
 
   <!-- Start contact section -->
@@ -218,5 +288,4 @@
   <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
   <!--- End of Script Source Files -->
 </body>
-
 </html>
